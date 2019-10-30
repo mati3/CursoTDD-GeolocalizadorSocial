@@ -9,7 +9,7 @@ Proyecto desarrollado por:
 
 ## Descripción
 
-Programa que sea capaz de almacenar posts en medios sociales y relacione tags con geolocalización, usando el API que estos medios proporcionen.
+Programa que sea capaz de almacenar posts en medios sociales y relacione los tags con geolocalización, usando el API que estos medios proporcionen.
 
 ## Heramientas
 
