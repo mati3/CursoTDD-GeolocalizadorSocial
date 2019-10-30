@@ -3,22 +3,22 @@
 
 class Post:
     
-    def Post (autor, tags, social, location):
+    def __init__ (self, autor, tags, social, location):
         self.autor = autor
         self.tags = tags
         self.social = social
         self.location = location
         
-    def getAutor():
+    def getAutor(self):
         return self.autor
     
-    def getTags():
+    def getTags(self):
         return self.tags
     
-    def getSocial():
+    def getSocial(self):
         return self.social
     
-    def getLocation():
+    def getLocation(self):
         return self.location
     
 
