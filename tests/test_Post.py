@@ -8,7 +8,7 @@ import unittest
 
 from post import Post
 
-class TestCine(unittest.TestCase):
+class TestPost(unittest.TestCase):
 
     # Comprueba que en la ruta devuelve status OK
     def test_create_post(self):
