@@ -1,0 +1,24 @@
+[
+    {
+        "_id":"91281821",
+        "social": "Twitter",
+        "autor": "anon192",
+        "tags": ["debate", "elecciones"],
+        "location": "Granada"
+    },
+    {
+        "_id":"123123421",
+        "social": "Facebook",
+        "autor": "anon892",
+        "tags": ["amazonas", "llamas"],
+        "location": "Barcelona"
+    },
+    {
+        "_id":"213123123",
+        "social": "Instagram",
+        "autor": "anon784",
+        "tags": ["Italia", "pizza"],
+        "location": "Roma"
+    }
+]
+    
