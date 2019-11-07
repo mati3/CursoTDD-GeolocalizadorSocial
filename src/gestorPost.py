@@ -11,7 +11,15 @@ class gestorPost:
     def insertarPost(self, p):
         self.posts.append(p)
 
-    def borrarPost(p):
+    def borrarPost(self, p):
         self.posts.remove(p)
+
+    def 
+
+    def print(self):
+        with open(.json) as file:
+            data = json.load(file)
+        for i in self.posts
+            print(i)
 
 
