@@ -7,7 +7,7 @@ import pymongo
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["mydatabase"]
-mycol = mydb["customers"]
+mycol = mydb["post"]
 
 class gestorPost:
     
@@ -29,11 +29,11 @@ class gestorPost:
 
     def insertarPost(self, p):
         # Insertar post en la BD
-        self.posts.append(p)
+        mycol.append(p)
 
     def eliminarPost(self, p):
         # Borrar post de la BD
-        self.posts.remove(p)
+        mycol.remove(p)
 
     def printPosts(self):
         for i in self.posts:
