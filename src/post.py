@@ -19,6 +19,4 @@ class Post:
         return self.social
     
     def getLocation(self):
-        return self.location
-    
-
+        return self.location  
