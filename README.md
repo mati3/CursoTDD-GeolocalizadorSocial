@@ -1,6 +1,6 @@
 # Rastreador de geolocalizaciones de medios sociales
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) [![Build Status](https://travis-ci.com/mati3/CursoTDD-GeolocalizadorSocial.svg?branch=master)](https://travis-ci.com/mati3/CursoTDD-GeolocalizadorSocial)
-[![codecov](https://codecov.io/gh/mati3/CursoTDD-GeolocalizadorSocial/branch/master/graph/badge.svg)](codecov.io/gh/mati3/CursoTDD-GeolocalizadorSocial)
+[![codecov](https://codecov.io/gh/mati3/CursoTDD-GeolocalizadorSocial/branch/master/graph/badge.svg)](https://codecov.io/gh/mati3/CursoTDD-GeolocalizadorSocial)
 [![DevQAGRX](https://img.shields.io/badge/DevQAGRX-blueviolet?style=for-the-badge&logo=Git)](https://github.com/JJ/curso-tdd)
 
 Plantilla para el [curso de desarrollo para QA](https://jj.github.io/curso-tdd)
