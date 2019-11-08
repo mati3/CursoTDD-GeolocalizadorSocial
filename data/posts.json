@@ -1,66 +1,24 @@
 [
     {
-        "_id":"912818321",
+        "_id":"111222333",
         "social": "Twitter",
         "autor": "anon192",
         "tags": ["Debate", "Elecciones"],
         "location": "Granada"
     },
     {
-        "_id":"123123421",
+        "_id":"123123123",
         "social": "Facebook",
         "autor": "anon892",
-        "tags": ["Amazonas", "Llamas", "Fuego"],
+        "tags": ["Debate"],
         "location": "Barcelona"
     },
     {
-        "_id":"213123123",
+        "_id":"999888777",
         "social": "Instagram",
         "autor": "anon784",
         "tags": ["Italia", "Pizza"],
         "location": "Roma"
-    },
-    {
-        "_id":"987123178",
-        "social": "Instagram",
-        "autor": "anon983",
-        "tags": ["Futbol", "Deporte", "Champions"],
-        "location": "Londres"
-    },
-    {
-        "_id":"123123421",
-        "social": "Twitter",
-        "autor": "anon665",
-        "tags": ["Amazonas"],
-        "location": "Londres"
-    },
-    {
-        "_id":"213123123",
-        "social": "Facebook",
-        "autor": "anon442",
-        "tags": ["Torre", "Monumentos"],
-        "location": "Paris"
-    },
-    {
-        "_id":"987123178",
-        "social": "Facebook",
-        "autor": "anon113",
-        "tags": "Champions",
-        "location": "Barcelona"
-    },
-    {
-        "_id":"123123421",
-        "social": "Instagram",
-        "autor": "anon889",
-        "tags": ["Amazonas"],
-        "location": "Barcelona"
-    },
-    {
-        "_id":"213123123",
-        "social": "Twitter",
-        "autor": "anon444",
-        "tags": ["Monumentos", "Alhambra"],
-        "location": "Granada"
     }
 ]
     
