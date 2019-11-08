@@ -3,18 +3,14 @@
 
 from post import Post
 import json
-import pymongo
+import sys, os.path
 
-myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-mydb = myclient["mydatabase"]
-mycol = mydb["post"]
-
-class gestorPost:
+class GestorPost:
     
-    def __init__ (self, data):
-        with open("../data/" + data) as file:
-            # De momento tomaremos los post desde json de ejemplo. Posteriormente
-            # estos datos se tomaran usando las API reales de las redes sociales
+    def __init__ (self, data_path):
+
+        with open(data_path) as file:
+            # Obtener datos desde un fichero de ejemplo .json
             self.posts = json.load(file)
 
     def getPosts(self):
@@ -27,24 +23,6 @@ class gestorPost:
                 post = self.posts[i]
         return post
 
-    def insertarPost(self, p):
-        # Insertar post en la BD
-        mycol.append(p)
-
-    def eliminarPost(self, p):
-        # Borrar post de la BD
-        mycol.remove(p)
-
     def printPosts(self):
         for i in self.posts:
             print(i)
-'''
-if __name__=="__main__":
-    gestorPost = gestorPost("posts.json")
-    gestorPost.printPosts()
-    posts = gestorPost.getPosts()
-    print (posts[0])
-    print (posts[0]['_id'])
-    post_buscado = gestorPost.getPost("213123123")
-    print ("Post buscado-> " + "Social: " + post_buscado['social'])
-'''
