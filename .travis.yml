@@ -17,6 +17,3 @@ install:
 script: 
   - invoke test
   - invoke cov
-
-after_success:
-  - codecov
